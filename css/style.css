@@ -1,0 +1,77 @@
+header {
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 52px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.finder-input {
+    max-width: 500px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    font-weight: 500;
+    position: relative;
+    justify-content: center;
+}
+
+#finder {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 16px 10px;
+    color: white;
+    outline: 0;
+    background-color: #555967;
+    border-radius: 5px;
+}
+
+.search-btn {
+    cursor: pointer;
+    padding: 6px 14px;
+    background-color: #2b2e36;
+    transition: all 500ms ease;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    border-radius: 5px;
+}
+
+small {
+    position: absolute;
+    color: #ee5252;
+    visibility: hidden;
+    font-size: 0.9em;
+    left: 2px;
+    bottom: -23px;
+    font-weight: 500;
+}
+
+.error-profile {
+    visibility: visible;
+    color: #ee5252;
+}
+
+#finder::placeholder {
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: #4c505c;
+    padding: 6px 18px;
+    transition: all 500ms ease;
+}
+
+.icon-search {
+    width: 25px;
+    height: 30px;
+}
